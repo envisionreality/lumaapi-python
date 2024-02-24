@@ -31,11 +31,9 @@ import enum_tools.documentation
 import time
 import json
 import requests
+import tempfile
 
-import platformdirs
-
-
-CACHE_DIR = platformdirs.user_config_dir("luma")
+CACHE_DIR = tempfile.gettempdir()
 AUTH_FILE = os.path.join(CACHE_DIR, "auth.json")
 API_BASE_URL = "https://webapp.engineeringlumalabs.com/api/v2/"
 
