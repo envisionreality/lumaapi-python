@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "build"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "envisionreality.lumaapi"
+name = "envisionrealitylumaapi"
 version = "0.0.5"
 authors = [
     {name = "Luma AI", email = "hello@lumalabs.ai"},
